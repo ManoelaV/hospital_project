@@ -1,0 +1,64 @@
+2025-03-05 21:15:54 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-05 21:15:57 - hospital_project - INFO - Starting main process
+2025-03-05 21:15:57 - hospital_project - INFO - Loading structured data from ../data/sample_estruturados.csv
+2025-03-05 21:15:57 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-05 21:15:57 - hospital_project - ERROR - Error loading structured data: [Errno 2] No such file or directory: '../data/sample_estruturados.csv'
+2025-03-05 21:15:57 - hospital_project - INFO - Loading unstructured data from ../data/sample_nao_estruturados.csv
+2025-03-05 21:15:57 - hospital_project - ERROR - Error loading unstructured data: [Errno 2] No such file or directory: '../data/sample_nao_estruturados.csv'
+2025-03-05 21:15:57 - hospital_project - INFO - Processing data
+2025-03-05 21:15:57 - hospital_project - ERROR - Error processing data: 'NoneType' object is not subscriptable
+2025-03-05 21:20:01 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-05 21:20:02 - hospital_project - INFO - Starting main process
+2025-03-05 21:20:02 - hospital_project - INFO - Loading structured data from ../data/sample_estruturados.csv
+2025-03-05 21:20:02 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-05 21:20:02 - hospital_project - ERROR - Error loading structured data: [Errno 2] No such file or directory: '../data/sample_estruturados.csv'
+2025-03-05 21:20:02 - hospital_project - INFO - Loading unstructured data from ../data/sample_nao_estruturados.csv
+2025-03-05 21:20:02 - hospital_project - ERROR - Error loading unstructured data: [Errno 2] No such file or directory: '../data/sample_nao_estruturados.csv'
+2025-03-05 21:20:02 - hospital_project - INFO - Processing data
+2025-03-05 21:20:02 - hospital_project - ERROR - Error processing data: 'NoneType' object is not subscriptable
+2025-03-05 21:20:02 - hospital_project - INFO - Main process completed
+2025-03-05 21:20:02 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-05 21:20:02 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 21:20:02 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-05 21:20:02 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-05 21:20:02 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 21:20:02 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 21:20:55 - werkzeug - INFO - 192.168.0.4 - - [05/Mar/2025 21:20:55] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-05 21:20:55 - werkzeug - INFO - 192.168.0.4 - - [05/Mar/2025 21:20:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-05 21:23:29 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-05 21:23:30 - hospital_project - INFO - Starting main process
+2025-03-05 21:23:30 - hospital_project - INFO - Loading structured data from ../data/sample_estruturados.csv
+2025-03-05 21:23:30 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-05 21:23:30 - hospital_project - ERROR - File not found: ../data/sample_estruturados.csv
+2025-03-05 21:23:30 - hospital_project - INFO - Loading unstructured data from ../data/sample_nao_estruturados.csv
+2025-03-05 21:23:30 - hospital_project - ERROR - File not found: ../data/sample_nao_estruturados.csv
+2025-03-05 21:23:30 - hospital_project - INFO - Processing data
+2025-03-05 21:23:30 - hospital_project - ERROR - Error processing data: 'status'
+2025-03-05 21:23:30 - hospital_project - INFO - Main process completed
+2025-03-05 21:23:30 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-05 21:23:30 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-05 21:23:30 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 21:23:30 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-05 21:23:30 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-05 21:23:30 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
