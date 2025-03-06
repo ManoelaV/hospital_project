@@ -62,3 +62,408 @@
  * Running on http://192.168.0.4:5000
 2025-03-05 21:23:30 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
 2025-03-05 21:23:30 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:00:14 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:00:17 - hospital_project - INFO - Starting main process
+2025-03-06 17:00:17 - hospital_project - INFO - Loading structured data from ../data/sample_estruturados.csv
+2025-03-06 17:00:17 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:00:17 - hospital_project - ERROR - File not found: ../data/sample_estruturados.csv
+2025-03-06 17:00:17 - hospital_project - INFO - Loading unstructured data from ../data/sample_nao_estruturados.csv
+2025-03-06 17:00:17 - hospital_project - ERROR - File not found: ../data/sample_nao_estruturados.csv
+2025-03-06 17:00:17 - hospital_project - INFO - Processing data
+2025-03-06 17:00:17 - hospital_project - ERROR - Error processing data: 'status'
+2025-03-06 17:00:17 - hospital_project - INFO - Main process completed
+2025-03-06 17:00:17 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:00:17 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:00:17 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:00:17 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:00:17 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:00:17 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:02:10 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:02:11 - hospital_project - INFO - Starting main process
+2025-03-06 17:02:11 - hospital_project - INFO - Loading structured data from ../data/sample_estruturados.csv
+2025-03-06 17:02:11 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:02:11 - hospital_project - ERROR - File not found: ../data/sample_estruturados.csv
+2025-03-06 17:02:11 - hospital_project - INFO - Loading unstructured data from ../data/sample_nao_estruturados.csv
+2025-03-06 17:02:11 - hospital_project - ERROR - File not found: ../data/sample_nao_estruturados.csv
+2025-03-06 17:02:11 - hospital_project - INFO - Processing data
+2025-03-06 17:02:11 - hospital_project - ERROR - Error processing data: 'status'
+2025-03-06 17:02:11 - hospital_project - INFO - Main process completed
+2025-03-06 17:02:11 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:02:11 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:02:11 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:02:11 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:02:11 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:02:11 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:05:07 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:05:07 - hospital_project - INFO - Starting main process
+2025-03-06 17:05:07 - hospital_project - INFO - Loading structured data from ../data_sample/sample_estruturados.csv
+2025-03-06 17:05:07 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:05:07 - hospital_project - ERROR - File not found: ../data_sample/sample_estruturados.csv
+2025-03-06 17:05:07 - hospital_project - INFO - Loading unstructured data from ../data_sample/sample_nao_estruturados.csv
+2025-03-06 17:05:07 - hospital_project - ERROR - File not found: ../data_sample/sample_nao_estruturados.csv
+2025-03-06 17:05:07 - hospital_project - INFO - Processing data
+2025-03-06 17:05:07 - hospital_project - ERROR - Error processing data: 'status'
+2025-03-06 17:05:07 - hospital_project - INFO - Main process completed
+2025-03-06 17:05:07 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:05:07 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:05:07 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:05:07 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:05:07 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:05:07 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:07:54 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:07:55 - hospital_project - INFO - Starting main process
+2025-03-06 17:07:55 - hospital_project - INFO - Loading structured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv
+2025-03-06 17:07:55 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:07:55 - hospital_project - INFO - Structured data loaded successfully
+2025-03-06 17:07:55 - hospital_project - INFO - Loading unstructured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv
+2025-03-06 17:07:55 - hospital_project - INFO - Unstructured data loaded successfully
+2025-03-06 17:07:55 - hospital_project - INFO - Processing data
+2025-03-06 17:07:55 - hospital_project - ERROR - Error processing data: 'status'
+2025-03-06 17:07:55 - hospital_project - INFO - Main process completed
+2025-03-06 17:07:55 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:07:55 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:07:55 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:07:55 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:07:55 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:07:55 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:12:53 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:12:54 - hospital_project - INFO - Starting main process
+2025-03-06 17:12:54 - hospital_project - INFO - Loading structured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv
+2025-03-06 17:12:54 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:12:54 - hospital_project - INFO - Structured data loaded successfully
+2025-03-06 17:12:54 - hospital_project - INFO - Loading unstructured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv
+2025-03-06 17:12:54 - hospital_project - INFO - Unstructured data loaded successfully
+2025-03-06 17:12:54 - hospital_project - INFO - Processing data
+2025-03-06 17:12:54 - hospital_project - ERROR - Error processing data: expected string or bytes-like object, got 'float'
+2025-03-06 17:12:54 - hospital_project - INFO - Main process completed
+2025-03-06 17:12:54 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:12:54 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:12:54 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:12:54 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:12:54 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:12:54 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:14:52 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:14:53 - hospital_project - INFO - Starting main process
+2025-03-06 17:14:53 - hospital_project - INFO - Loading structured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv
+2025-03-06 17:14:53 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:14:53 - hospital_project - INFO - Structured data loaded successfully
+2025-03-06 17:14:53 - hospital_project - INFO - Loading unstructured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv
+2025-03-06 17:14:53 - hospital_project - INFO - Unstructured data loaded successfully
+2025-03-06 17:14:53 - hospital_project - INFO - Processing data
+2025-03-06 17:14:53 - hospital_project - INFO - Found 87 eligible patients
+2025-03-06 17:14:53 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:14:53 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:14:53 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:14:53 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:14:53 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:14:53 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:15:08 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:15:09 - hospital_project - INFO - Starting main process
+2025-03-06 17:15:09 - hospital_project - INFO - Loading structured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv
+2025-03-06 17:15:09 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:15:09 - hospital_project - INFO - Structured data loaded successfully
+2025-03-06 17:15:09 - hospital_project - INFO - Loading unstructured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv
+2025-03-06 17:15:09 - hospital_project - INFO - Unstructured data loaded successfully
+2025-03-06 17:15:09 - hospital_project - INFO - Processing data
+2025-03-06 17:15:09 - hospital_project - INFO - Found 87 eligible patients
+2025-03-06 17:15:09 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:15:09 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:15:09 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:15:09 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:15:09 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:15:09 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:16:18 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:16:19 - hospital_project - INFO - Starting main process
+2025-03-06 17:16:19 - hospital_project - INFO - Loading structured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv
+2025-03-06 17:16:19 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:16:19 - hospital_project - INFO - Structured data loaded successfully
+2025-03-06 17:16:19 - hospital_project - INFO - Loading unstructured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv
+2025-03-06 17:16:19 - hospital_project - INFO - Unstructured data loaded successfully
+2025-03-06 17:16:19 - hospital_project - INFO - Processing data
+2025-03-06 17:16:19 - hospital_project - INFO - Found 87 eligible patients
+2025-03-06 17:16:19 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:16:19 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:16:19 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:16:19 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:16:19 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:16:19 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:17:21 - hospital_project - INFO - Logger inicializado com sucesso
+2025-03-06 17:17:22 - hospital_project - INFO - Starting main process
+2025-03-06 17:17:22 - hospital_project - INFO - Loading structured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv
+2025-03-06 17:17:22 - dash.dash - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-03-06 17:17:22 - hospital_project - INFO - Structured data loaded successfully
+2025-03-06 17:17:22 - hospital_project - INFO - Loading unstructured data from c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv
+2025-03-06 17:17:22 - hospital_project - INFO - Unstructured data loaded successfully
+2025-03-06 17:17:22 - hospital_project - INFO - Processing data
+2025-03-06 17:17:22 - hospital_project - INFO - Found 87 eligible patients
+2025-03-06 17:17:22 - hospital_project - INFO - Sending WhatsApp message to 1100009458
+2025-03-06 17:17:22 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-03-06 17:17:22 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.0.4:8050
+2025-03-06 17:17:22 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:17:22 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.4:5001
+2025-03-06 17:17:22 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:17:22 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009458: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008954
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008954: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009545
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009545: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009606
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009606: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009157
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009157: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008842
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008842: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009600
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009600: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009366
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009366: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009098
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009098: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009306
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009306: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008974
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008974: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009003
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009003: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009401
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009401: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008870
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008870: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009437
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009437: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009563
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009563: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009370
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009370: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009137
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009137: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009691
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009691: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008776
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008776: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009362
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009362: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009049
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009049: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009619
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009619: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009712
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009712: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009051
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009051: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009409
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009409: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009660
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009660: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008910
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008910: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008952
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008952: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009093
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009093: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009595
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009595: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008797
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008797: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009532
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009532: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009347
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009347: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009348
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009348: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009698
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009698: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008938
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008938: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008869
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008869: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009637
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009637: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009501
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009501: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008921
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008921: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009425
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009425: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009128
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009128: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009174
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009174: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009542
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009542: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009372
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009372: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009407
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009407: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008814
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008814: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009453
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009453: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009250
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009250: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008958
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008958: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008830
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008830: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008917
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008917: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009101
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009101: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009500
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009500: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009383
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009383: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009502
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009502: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009695
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009695: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008756
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008756: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009358
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009358: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009000
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009000: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008845
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008845: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009215
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009215: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009479
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009479: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009033
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009033: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008815
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008815: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009207
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009207: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009313
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009313: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009327
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009327: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009282
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009282: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008909
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008909: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009365
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009365: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008944
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008944: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009252
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009252: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009551
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009551: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009133
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009133: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009611
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009611: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009697
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009697: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009534
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009534: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009632
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009632: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009391
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009391: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100008989
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100008989: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009040
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009040: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009547
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009547: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009614
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009614: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009663
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009663: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Sending WhatsApp message to 1100009482
+2025-03-06 17:17:23 - hospital_project - ERROR - Error sending WhatsApp message to 1100009482: No module named 'twilio.rest.api.v2010.account.sip.domain.auth_types.auth_type_registrations.auth_registrations_credential_list_mapping'
+2025-03-06 17:17:23 - hospital_project - INFO - Main process completed

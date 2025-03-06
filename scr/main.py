@@ -34,8 +34,8 @@ def main():
     dashboard_thread.start()
 
     # Load data
-    structured_data = load_structured_data('../data/sample_estruturados.csv')
-    unstructured_data = load_unstructured_data('../data/sample_nao_estruturados.csv')
+    structured_data = load_structured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv')
+    unstructured_data = load_unstructured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv')
 
     # Process data to find eligible patients
     eligible_patients, processed_unstructured_data = process_data(structured_data, unstructured_data)
@@ -44,7 +44,7 @@ def main():
         # Send messages via WhatsApp to eligible patients
         for index, patient in eligible_patients.iterrows():
             message = build_message(patient)
-            send_whatsapp_message(patient['phone'], message)
+            send_whatsapp_message(patient['TEL'], message)
 
     logger.info('Main process completed')
 

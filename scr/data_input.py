@@ -29,7 +29,7 @@ def load_unstructured_data(filepath):
 
 # Example usage
 if __name__ == "__main__":
-    structured_data = load_structured_data('../data/sample_estruturados.csv')
-    unstructured_data = load_unstructured_data('../data/sample_nao_estruturados.csv')
+    structured_data = load_structured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv')
+    unstructured_data = load_unstructured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv')
     print(structured_data.head())
     print(unstructured_data.head())
