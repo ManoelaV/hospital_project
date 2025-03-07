@@ -27,7 +27,7 @@ hospital_project/
 1. Clone o repositório:
 
 sh
-git clone https://github.com/seu-usuario/hospital_project.git
+git clone [https://github.com/seu-usuario/hospital_project.git]
 cd hospital_project
 
 2.Crie um ambiente virtual e ative-o:
@@ -41,12 +41,14 @@ pip install -r requirements.txt
 
 Configuração-
 1.Configure as credenciais do Twilio no arquivo scr/communication/messenger.py:
-# Configurações do Twilio
+
+## Configurações do Twilio
+
 account_sid = 'your_account_sid'
 auth_token = 'your_auth_token'
 twilio_phone_number = 'whatsapp:+14155238886'
 
-2. Certifique-se de que os arquivos de dados sample_estruturados.csv e sample_nao_estruturados.csv estão no diretório data_sample
+2.Certifique-se de que os arquivos de dados sample_estruturados.csv e sample_nao_estruturados.csv estão no diretório data_sample
 
 Uso-
 1.Execute o arquivo main.py para iniciar o sistema:
@@ -88,7 +90,3 @@ Dashboard interativo para visualizar dados utilizando a biblioteca Dash do Plotl
 ### `scr/main.py`
 
 Ponto de entrada do sistema que integra todas as funcionalidades e coordena a execução.
-
-
-
-
