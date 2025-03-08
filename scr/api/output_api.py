@@ -21,12 +21,12 @@ def get_message_status():
         # Converter para JSON
         status_json = status_data.to_dict(orient='records')
         
-        logger.info('Message status data retrieved successfully')
+        logger.info('Message status data retrieved successfully')# Log de sucesso
         return jsonify(status_json), 200
-    except Exception as e:
-        logger.error(f'Error retrieving message status data: {e}')
+    except Exception as e:# Tratamento de exceção
+        logger.error(f'Error retrieving message status data: {e}')# Log de erro
         return jsonify({'error': str(e)}), 500
-
+# Exemplo de uso
 if __name__ == '__main__':
     logger.info('Starting output API')
     app.run(debug=True, host='0.0.0.0', port=5001)

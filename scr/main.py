@@ -15,33 +15,34 @@ from processing.message_builder import build_message
 from dashboard import app as dashboard_app
 from logger import logger
 
+# Função para iniciar o Flask
 def start_flask_app(app, port):
     app.run(debug=False, host='0.0.0.0', port=port, use_reloader=False)
 
 def main():
     logger.info('Starting main process')
 
-    # Start the input API in a separate thread
+    # começa a API de entrada em uma thread separada
     input_api_thread = threading.Thread(target=start_flask_app, args=(input_api_app, 5000))
     input_api_thread.start()
 
-    # Start the output API in a separate thread
+    # começa a API de saída em uma thread separada
     output_api_thread = threading.Thread(target=start_flask_app, args=(output_api_app, 5001))
     output_api_thread.start()
 
-    # Start the dashboard in a separate thread
+    # começa o dashboard em uma thread separada
     dashboard_thread = threading.Thread(target=start_flask_app, args=(dashboard_app, 8050))
     dashboard_thread.start()
 
-    # Load data
+    # carrega os dados estruturados e não estruturados
     structured_data = load_structured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv')
     unstructured_data = load_unstructured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv')
 
-    # Process data to find eligible patients
+    # processa os dados e retorna os pacientes elegíveis e os dados não estruturados processados 
     eligible_patients, processed_unstructured_data = process_data(structured_data, unstructured_data)
 
     if eligible_patients is not None:
-        # Send messages via WhatsApp to eligible patients
+        # envia mensagens para os pacientes elegíveis utilizando a API do WhatsApp
         for index, patient in eligible_patients.iterrows():
             message = build_message(patient)
             send_whatsapp_message(patient['TEL'], message)

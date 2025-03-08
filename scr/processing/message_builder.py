@@ -6,7 +6,7 @@ def build_message(patient):
         data = patient['DATA']
         telefone = patient['TEL']
         receita = patient['DS_RECEITA']
-        
+        # Constroi a mensagem
         message = (
             f"Olá {solicitante},\n"
             f"ID: {id}\n"
@@ -20,7 +20,7 @@ def build_message(patient):
         logger.error(f"KeyError: {e}")
         return "Erro ao construir a mensagem."
 
-# Example usage
+# Exemplo de uso
 if __name__ == "__main__":
     import pandas as pd
     from logger import logger

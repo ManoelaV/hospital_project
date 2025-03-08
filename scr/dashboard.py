@@ -17,11 +17,11 @@ app = dash.Dash(__name__)
 # Layout do aplicativo
 app.layout = html.Div(children=[
     html.H1(children='Dashboard Hospital Project'),
-
+    # Gráfico de barras
     dcc.Graph(
         id='example-graph'
     ),
-
+    # Atualizar o gráfico a cada minuto
     dcc.Interval(
         id='interval-component',
         interval=60*1000,  # Atualizar a cada minuto
@@ -34,6 +34,7 @@ app.layout = html.Div(children=[
     Output('example-graph', 'figure'),
     [Input('interval-component', 'n_intervals')]
 )
+# Atualizar o gráfico
 def update_graph(n):
     logger.info('Updating graph')
     data = load_data()

@@ -1,7 +1,7 @@
 from logger import logger
 import re
 import pandas as pd
-
+# Função para processar dados
 def process_data(structured_data, unstructured_data):
     try:
         logger.info('Processing data')
@@ -11,13 +11,13 @@ def process_data(structured_data, unstructured_data):
         
         # Processamento de dados não estruturados
         unstructured_data['exame'] = unstructured_data['DS_RECEITA'].apply(extract_exam)
-        
+        # Exemplo de processamento de dados não estruturados: Filtrar exames de RM
         logger.info(f'Found {len(eligible_patients)} eligible patients')
         return eligible_patients, unstructured_data
     except Exception as e:
         logger.error(f'Error processing data: {e}')
         return None, None
-
+# Função para extrair tipo de exame
 def extract_exam(text):
     if pd.isna(text):
         return 'Desconhecido'
@@ -27,7 +27,7 @@ def extract_exam(text):
         return match.group(0)
     return 'Desconhecido'
 
-# Example usage
+# Exemplo de uso
 if __name__ == "__main__":
     from data_input import load_structured_data, load_unstructured_data
     

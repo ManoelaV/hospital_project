@@ -1,6 +1,7 @@
 import pandas as pd
 from logger import logger
 
+# Função para carregar dados estruturados
 def load_structured_data(filepath):
     try:
         logger.info(f'Loading structured data from {filepath}')
@@ -14,6 +15,7 @@ def load_structured_data(filepath):
         logger.error(f'Error loading structured data: {e}')
         return pd.DataFrame()  # Retorna um DataFrame vazio
 
+# Função para carregar dados não estruturados
 def load_unstructured_data(filepath):
     try:
         logger.info(f'Loading unstructured data from {filepath}')
@@ -27,7 +29,7 @@ def load_unstructured_data(filepath):
         logger.error(f'Error loading unstructured data: {e}')
         return pd.DataFrame()  # Retorna um DataFrame vazio
 
-# Example usage
+# exemplo de uso
 if __name__ == "__main__":
     structured_data = load_structured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv')
     unstructured_data = load_unstructured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv')

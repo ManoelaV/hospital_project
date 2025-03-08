@@ -19,10 +19,10 @@ except Exception as e:
 
 # Configura o logger
 logging.basicConfig(
-    filename=os.path.join(log_dir, 'hospital_project.log'),
-    level=logging.DEBUG,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
+    filename=os.path.join(log_dir, 'hospital_project.log'), # Caminho do arquivo de log
+    level=logging.DEBUG, # Nível de log
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', # Formato da mensagem de log
+    datefmt='%Y-%m-%d %H:%M:%S' # Formato da data e hora
 )
 
 # Cria um objeto logger
