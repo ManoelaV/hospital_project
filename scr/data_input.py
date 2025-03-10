@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from logger import logger
 
 # Função para carregar dados estruturados
@@ -31,7 +32,12 @@ def load_unstructured_data(filepath):
 
 # exemplo de uso
 if __name__ == "__main__":
-    structured_data = load_structured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv')
-    unstructured_data = load_unstructured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv')
+    base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data_sample'))
+    structured_data_path = os.path.join(base_path, 'sample_estruturados.csv')
+    unstructured_data_path = os.path.join(base_path, 'sample_nao_estruturados.csv')
+
+    structured_data = load_structured_data(structured_data_path)
+    unstructured_data = load_unstructured_data(unstructured_data_path)
+    
     print(structured_data.head())
     print(unstructured_data.head())

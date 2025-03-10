@@ -10,7 +10,7 @@ def receive_structured_data():
     try:
         data = request.get_json()# Recebe os dados em formato JSON
         df = pd.DataFrame(data)
-        df.to_csv('../data/sample_estruturados.csv', index=False)
+        df.to_csv('../data_sample/sample_estruturados.csv', index=False)
         logger.info('Structured data received and saved successfully')
         return jsonify({'message': 'Structured data received successfully'}), 200 # Retorna uma mensagem de sucesso
     except Exception as e:
@@ -23,7 +23,7 @@ def receive_unstructured_data():
     try:
         data = request.get_json()
         df = pd.DataFrame(data) # Transforma os dados em um DataFrame
-        df.to_csv('../data/sample_nao_estruturados.csv', index=False)
+        df.to_csv('../data_sample/sample_nao_estruturados.csv', index=False)
         logger.info('Unstructured data received and saved successfully')
         return jsonify({'message': 'Unstructured data received successfully'}), 200
     except Exception as e:

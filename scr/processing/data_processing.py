@@ -1,6 +1,13 @@
-from logger import logger
+import sys
+import os
 import re
 import pandas as pd
+
+# Adiciona o diretório raiz do projeto ao sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
+from logger import logger
+
 # Função para processar dados
 def process_data(structured_data, unstructured_data):
     try:
@@ -17,6 +24,7 @@ def process_data(structured_data, unstructured_data):
     except Exception as e:
         logger.error(f'Error processing data: {e}')
         return None, None
+
 # Função para extrair tipo de exame
 def extract_exam(text):
     if pd.isna(text):
@@ -28,11 +36,16 @@ def extract_exam(text):
     return 'Desconhecido'
 
 # Exemplo de uso
-if __name__ == "__main__":
+if __name__ == "__main__":    
     from data_input import load_structured_data, load_unstructured_data
     
-    structured_data = load_structured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv')
-    unstructured_data = load_unstructured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv')
+    base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data_sample'))
+    structured_data_path = os.path.join(base_path, 'sample_estruturados.csv')
+    unstructured_data_path = os.path.join(base_path, 'sample_nao_estruturados.csv')
+
+    structured_data = load_structured_data(structured_data_path)
+    unstructured_data = load_unstructured_data(unstructured_data_path)
+    
     eligible_patients, processed_unstructured_data = process_data(structured_data, unstructured_data)
     print(eligible_patients.head())
     print(processed_unstructured_data.head())

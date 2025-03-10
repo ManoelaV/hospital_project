@@ -8,7 +8,7 @@ from logger import logger
 
 # Carregar dados
 def load_data():
-    structured_data = pd.read_csv('../data/sample_estruturados.csv')
+    structured_data = pd.read_csv('../data_sample/sample_estruturados.csv')
     return structured_data
 
 # Inicializar o aplicativo Dash

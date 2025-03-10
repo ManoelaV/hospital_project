@@ -34,9 +34,15 @@ def main():
     dashboard_thread = threading.Thread(target=start_flask_app, args=(dashboard_app, 8050))
     dashboard_thread.start()
 
+    # Define o caminho base para os dados
+    base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data_sample'))
+
     # carrega os dados estruturados e não estruturados
-    structured_data = load_structured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_estruturados.csv')
-    unstructured_data = load_unstructured_data('c:/Users/Renan/Documents/GitHub/hospital_project/data_sample/sample_nao_estruturados.csv')
+    structured_data_path = os.path.join(base_path, 'sample_estruturados.csv')
+    unstructured_data_path = os.path.join(base_path, 'sample_nao_estruturados.csv')
+
+    structured_data = load_structured_data(structured_data_path)
+    unstructured_data = load_unstructured_data(unstructured_data_path)
 
     # processa os dados e retorna os pacientes elegíveis e os dados não estruturados processados 
     eligible_patients, processed_unstructured_data = process_data(structured_data, unstructured_data)
